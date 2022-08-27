@@ -1,6 +1,6 @@
 # The Modernist theme
 
-> NOTE: This fork contains code specific to the RoseSMP wiki. While we will try to make this work for everyone, some code will only work for our use case. Sorry for inconveniences.
+> NOTE: This fork contains code specific to the RoseSMP wiki. While we will try to make this work for everyone, some code will only work for our use case. Sorry for inconveniences. See all the changes we've made [here](https://github.com/pages-themes/modernist/compare/master...RoseSMP:clean:master)
 
 [![.github/workflows/ci.yaml](https://github.com/pages-themes/modernist/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/modernist/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-modernist.svg)](https://badge.fury.io/rb/jekyll-theme-modernist)
 
