@@ -14,5 +14,3 @@ jobs:
           bundler-cache: true
       - name: build
         run: script/bootstrap
-      - name: test
-        run: script/cibuild
