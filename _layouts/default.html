@@ -17,33 +17,25 @@
     {% include head-custom.html %}
   </head>
   <body>
+    <header>
+      <div class="navbar-container">
+        <div class="navbar">
+          <img class="nav-image" src="https://media.discordapp.net/attachments/977597326493372417/977597507179773972/RoseSMP.png?width=1070&height=417">
+        </div>
+      </div>
+    </header>
     <div class="wrapper">
-      <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
-        <a href="{{ site.github.url }}"><h1>{{ site.title | default: site.github.repository_name }}</h1></a>
-        {% if site.description or site.github.project_tagline %}
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
-        {% endif %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ github_name }}</small></a></p>
-        <ul>
-        {% if site.show_downloads %}
-          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-        {% endif %}
-          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
       <section>
-
-      {{ content }}
-
+      {{ content }} 
       </section>
+      <footer>
+        <div class="hr"></div>
+        {% if site.github.is_project_page %}
+        <p>Site maintained by <a href="owner_url">{{ site.github.owner_name }}</a> | <a href="{ site.github.url }/meta/contributing">contribute</a> | <a href="https://github.com/RoseSMP/clean">theme</a></p>
+        {% else %}
+        <p><a href="https://github.com/RoseSMP/clean">Using clean theme</a></p>
+        {% endif %}
+      </footer>
     </div>
-    <footer>
-    {% if site.github.is_project_page %}
-      <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-    {% endif %}
-      <p>Hosted on GitHub Pages &mdash; <a href="{{ site.github.url }}/meta/contributing">Contribute!</a></p>
-    </footer>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
   </body>
-</html>
+  </html>
