@@ -46,18 +46,18 @@ strong {
 
 header {
   border-radius: 8px 8px 0 0;
-  background:#c93131;
-  background: linear-gradient(#ca8282, #c93131);
+  background:#771439;
+  background: linear-gradient(#c32531, #771439);
   position:relative;
   padding:15px 20px;
-  border-bottom:1px solid #e1b2b2;
+  border-bottom:1px solid #330824;
 
   h1 {
     margin:0;
     padding:0;
     font-size:24px;
     line-height:1.2;
-    color:rgb(0, 26, 36) !important;
+    color:#161519 !important;
     text-shadow:rgba(#fff, 0.9) 0 1px 0;
   }
 
@@ -97,8 +97,8 @@ header {
     top:20px;
     height:38px;
     padding:1px 0;
-    background:#5198DF;
-    background: linear-gradient(#77B9FB, #3782CD);
+    background:#161519;
+    background: linear-gradient(#252a3a, #161519);
     border-radius:5px;
     box-shadow: inset rgba(#fff, 0.45) 0 1px 0, inset rgba(#000, 0.2) 0 -1px 0;
     width:auto;
@@ -119,7 +119,7 @@ header {
     li {
       width:79px;
       float:left;
-      border-right:1px solid #3A7CBE;
+      border-right:1px solid #161519;
       height:38px;
 
       &.single {
